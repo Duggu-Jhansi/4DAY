@@ -1,17 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+  <ConditionComponent />
+  <EventHandlers/>
+  <ForList/>
+</div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script setup>
+import ConditionComponent from './components/ConditionComponent.vue';
+import EventHandlers from './components/EventHandlers.vue';
+import ForList from './components/ForList.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+
+
 </script>
 
 <style>
